@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-async-solo"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Fioreze"]
+readme = "README.md"
+packages = [{include = "python_async_solo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aio-request = "^0.1.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
